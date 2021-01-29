@@ -6,7 +6,7 @@ class ChattyStudent < Student
     
   def raise_hand 
     super 
-    return "Pick me!" * 10 
+    raise_hand
     
   end 
   
